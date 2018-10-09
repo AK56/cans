@@ -23,37 +23,75 @@
 //********************
 // TimeoutWarning
 //******************** 
-.timeout-warning-modal 
-  color: #FFF
-  background-color: #FFF
-  // border: .1rem solid #B2B2B2
+div.timeout-warning-modal
+  font-family: ‘Source Sans Pro’, ‘Helvetica Neue’, ‘Helvetica’, ‘Roboto’, ‘Arial’, sans-serif
+  margin-top: 17.5rem
+
+div.timeout-warning-modal
+  > div.modal-content
+    width: 55rem
+    border-radius: .5rem
+    border: none
+
+    
 
 div.timeout-warning-modal-body
+  padding: 3.2rem 3.2rem 3.2rem 0
+  width: 55rem 
   background-color: #FFF
-  padding: 3.2rem 3.2rem 3.2rem 9.6rem
+  border-radius: .5rem .5rem 0 0
+  border-top: .2rem solid #B2B2B2
+  border-left: .2rem solid #B2B2B2
+  border-right: .2rem solid #B2B2B2
+  border-bottom: none !important
+  
 
 div.timeout-warning-modal-body
   > div
+    margin-left: 9.6rem
     color: #000
     size: 1.6rem
     line: 2rem
-    font-family: ‘Source Sans Pro’, ‘Helvetica Neue’, ‘Helvetica’, ‘Roboto’, ‘Arial’, sans-serif
+
+div.timeout-warning-modal-body
+  > div:nth-child(2)
+    margin-bottom: 1.6rem
+
+div.timeout-warning-modal-body
+  > div:nth-child(3)
+    margin-bottom: 1.6rem    
+
+div.timeout-warning-modal-body
+  > div.timeout-warning-modal-exclamation-triangle
+    float: left
+    height: 3.6rem
+    width: 3.2rem
+    background-image: url('../../../../assets/images/alert-triangle-red-512.png')
+    background-repeat: no-repeat
+    background-size: contain
+    margin-left: 3.2rem
+    margin-right: 3.2rem
 
 div.timeout-warning-modal-heading
   color: #AD2213 !important
   font-size: 2.4rem
   line-height: 3.1rem
-  font-weight: bold
+  font-weight: 600
 
 div.timeout-warning-modal-footer
-  background-color: #FFF
   padding: 1.6rem 3.2rem 3.2rem 9.6rem
-  border: none !important
+  width: 55rem
+  background-color: #FFF
+  border-radius: 0 0 .5rem .5rem
+  border-top: none !important
+  border-left: .2rem solid #B2B2B2
+  border-right: .2rem solid #B2B2B2
+  border-bottom: .2rem solid #B2B2B2
 
 div.timeout-warning-modal-footer
   > button
-    font-family: ‘Source Sans Pro’, ‘Helvetica Neue’, ‘Helvetica’, ‘Roboto’, ‘Arial’, sans-serif
-    font-weight: bold
+    font-size: 1.4rem
+    font-weight: 600
 
 button.timeout-warning-modal-logout
   background-color: #D8D8D8

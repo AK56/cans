@@ -45,10 +45,9 @@ export class TimeoutWarning extends Component {
     return (
       <Modal className="timeout-warning-modal" isOpen={this.state.isOpened}>
         <ModalBody className="timeout-warning-modal-body">
+          <div className="timeout-warning-modal-exclamation-triangle" />
           <div className="timeout-warning-modal-heading">Session timeout!</div>
-          <br />
           <div>Due to inactivity, your session is about to timeout. Any unsaved work will be lost.</div>
-          <br />
           <div>Would you like to continue?</div>
         </ModalBody>
         <ModalFooter className="timeout-warning-modal-footer">
