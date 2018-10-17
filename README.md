@@ -1,8 +1,8 @@
 # CANS
-
+# Need Docker stuff
 # Project Dependencies
 React 16.4.1"
-Rails 5.2.0 
+Rails 5.2.0
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
@@ -46,7 +46,7 @@ To start the react app:
 
 ```yarn start```
 
-To run the react test suite with watcher: 
+To run the react test suite with watcher:
 
 ```yarn test```
 
@@ -57,4 +57,3 @@ and a one-time run with coverage
 # Questions
 
 If you have any questions regarding the contents of this repository, please email the Office of Systems Integration at FOSS@osi.ca.gov.
-
